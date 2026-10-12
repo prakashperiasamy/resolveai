@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "filesScanned": 43,
+  "secretPatternFindings": 0,
+  "hostingCredentialsIncluded": false,
+  "sourceHistoryIncluded": false,
+  "standaloneJavaScriptSyntax": "passed",
+  "markdownLocalLinks": "passed",
+  "scope": "Bounded local scan, not a comprehensive security audit."
+}

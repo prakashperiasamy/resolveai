@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "assertions": 10849,
+  "fixture": {
+    "cases": 2700,
+    "active": 68,
+    "customers": 8,
+    "months": 60
+  },
+  "scope": "Synthetic fixture integrity, queue filtering, query scope, evidence references, trend reconciliation, CSV escaping. Browser interaction QA not included."
+}

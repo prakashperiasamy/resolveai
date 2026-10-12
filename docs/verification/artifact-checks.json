@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "results": [
+    {
+      "file": "demo/index.html",
+      "offlineScripts": true,
+      "offlineStyles": true,
+      "authorship": true
+    },
+    {
+      "file": "docs/executive-brief.html",
+      "offlineScripts": true,
+      "offlineStyles": true,
+      "authorship": true
+    }
+  ]
+}

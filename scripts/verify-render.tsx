@@ -1,0 +1,10 @@
+import React from 'react';
+import {renderToStaticMarkup} from 'react-dom/server';
+import Home from '../src/App';
+import assert from 'node:assert/strict';
+import fs from 'node:fs';
+const html=renderToStaticMarkup(<Home/>);
+for(const label of ['ResolveAI','Prakash Periasamy','SYNTHETIC DEMO DATA','AI-assisted escalation control tower','OPEN ESCALATIONS','Export current view'])assert.ok(html.includes(label),label);
+const result={passed:true,method:'React server rendering; not browser visual or interaction QA',bytes:Buffer.byteLength(html),labels:6};
+fs.writeFileSync('docs/verification/render-checks.json',JSON.stringify(result,null,2));
+console.log(JSON.stringify(result,null,2));
